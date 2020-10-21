@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+#home{
+    background-color:blanchedalmond;
+    border: 7px black;
+}
+#home img{
+    border-radius: 50%;
+    border: 9px black;
+    width: 200px;
+    height: 200px;
+}
+p{
+    font-size: 40px;
+    color: azure;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links {
+    float: left;
+    color:deeppink;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+#drawings{
+    background-color:aquamarine;
+}
+#drawings img{
+    width: 300px;
+    height: 350px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+#inspo{
+    background-color: cornflowerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+#contact{
+    background-color: firebrick;
+}
